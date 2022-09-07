@@ -13,6 +13,11 @@
 		1B8DDB74286996F900D7FA58 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DDB72286996F900D7FA58 /* Main.storyboard */; };
 		1B8DDB76286996FD00D7FA58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DDB75286996FD00D7FA58 /* Assets.xcassets */; };
 		1B8DDB79286996FD00D7FA58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B8DDB77286996FD00D7FA58 /* LaunchScreen.storyboard */; };
+		1B8DDB81286999F500D7FA58 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DDB80286999F500D7FA58 /* Response.swift */; };
+		1B8DDB8328699AA300D7FA58 /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DDB8228699AA300D7FA58 /* Recipe.swift */; };
+		1B8DDB8528699C2200D7FA58 /* Hits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DDB8428699C2200D7FA58 /* Hits.swift */; };
+		1B8DDB872869A51100D7FA58 /* RecipeTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DDB862869A51100D7FA58 /* RecipeTVC.swift */; };
+		1B8DDB892869AE5000D7FA58 /* RecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DDB882869AE5000D7FA58 /* RecipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +29,11 @@
 		1B8DDB75286996FD00D7FA58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B8DDB78286996FD00D7FA58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1B8DDB7A286996FD00D7FA58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B8DDB80286999F500D7FA58 /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		1B8DDB8228699AA300D7FA58 /* Recipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Recipe.swift; sourceTree = "<group>"; };
+		1B8DDB8428699C2200D7FA58 /* Hits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hits.swift; sourceTree = "<group>"; };
+		1B8DDB862869A51100D7FA58 /* RecipeTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTVC.swift; sourceTree = "<group>"; };
+		1B8DDB882869AE5000D7FA58 /* RecipeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +69,11 @@
 				1B8DDB6C286996F900D7FA58 /* AppDelegate.swift */,
 				1B8DDB6E286996F900D7FA58 /* SceneDelegate.swift */,
 				1B8DDB70286996F900D7FA58 /* ViewController.swift */,
+				1B8DDB882869AE5000D7FA58 /* RecipeVC.swift */,
+				1B8DDB80286999F500D7FA58 /* Response.swift */,
+				1B8DDB8228699AA300D7FA58 /* Recipe.swift */,
+				1B8DDB8428699C2200D7FA58 /* Hits.swift */,
+				1B8DDB862869A51100D7FA58 /* RecipeTVC.swift */,
 				1B8DDB72286996F900D7FA58 /* Main.storyboard */,
 				1B8DDB75286996FD00D7FA58 /* Assets.xcassets */,
 				1B8DDB77286996FD00D7FA58 /* LaunchScreen.storyboard */,
@@ -138,9 +153,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8DDB81286999F500D7FA58 /* Response.swift in Sources */,
 				1B8DDB71286996F900D7FA58 /* ViewController.swift in Sources */,
+				1B8DDB892869AE5000D7FA58 /* RecipeVC.swift in Sources */,
 				1B8DDB6D286996F900D7FA58 /* AppDelegate.swift in Sources */,
 				1B8DDB6F286996F900D7FA58 /* SceneDelegate.swift in Sources */,
+				1B8DDB872869A51100D7FA58 /* RecipeTVC.swift in Sources */,
+				1B8DDB8328699AA300D7FA58 /* Recipe.swift in Sources */,
+				1B8DDB8528699C2200D7FA58 /* Hits.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
